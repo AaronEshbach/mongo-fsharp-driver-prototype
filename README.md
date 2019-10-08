@@ -1,20 +1,19 @@
 MongoDB F# Driver Prototype
 ===========================
 
-This is a prototype MongoDB driver written for F#. The goal of this
-driver is to make using MongoDB from F# more natural by defining new
-ways to express database/collection operations that are idiomatic to
-the language.
+This is a continuation of the development on a prototype MongoDB driver 
+written for F#. The original project was never advanced beyond a POC,
+but it did establish a pattern from using MongoDB from F# more natural 
+by defining new ways to express database/collection operations 
+that are idiomatic to the language.  As such, this fork is intended to
+carry on that work and provide a stable version of the library that can 
+ultimately be used in a Production system.
 
-#### Special Notes
+#### Note
 
-The API and implementation are currently subject to change at any time.
-You **must not** use this driver in production, as it is still under
-development and is in no way supported by MongoDB, Inc.
-
-We absolutely encourage you to experiment with it and provide us
-feedback on the API, design, and implementation. Bug reports and
-suggestions for improvements are welcomed, as are pull requests.
+The API and implementation are still in early development and may change.
+You probably won't want use this driver in production, as it has not been 
+tested and is in no way supported by MongoDB, Inc.
 
 Dependencies
 ------------
